@@ -32,7 +32,7 @@ app.engine('handlebars', expressHandlebars({
 app.set('view engine', 'handlebars');
 
 //Routes
-var routes = require('./controllers/news.js');
+var routes = require('./controllers/scraping.js');
 app.use('/',routes);
 
 //404 Error

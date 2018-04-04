@@ -70,7 +70,7 @@ $(document).ready(function(){
 		$('#image').attr('src', product.link);
 		$('#msrp').text(product.msrp);
 		$("#readProduct").removeClass("hidden");
-		$('#product').attr('href', product.storyLink);
+		$('#readproduct').attr('href', product.link);
 		$("#getProducts").addClass("hidden");
 		$("#navigation").empty();
 		previousProduct = currentProduct - 1;
